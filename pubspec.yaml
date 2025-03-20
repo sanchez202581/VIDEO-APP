@@ -1,0 +1,46 @@
+name: video_app
+description: Aplicación para analizar, resumir y narrar videos con IA
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  # Manejo de estado
+  provider: ^6.1.1
+  # Permisos
+  permission_handler: ^11.0.1
+  # Selección de archivos
+  file_picker: ^9.2.0
+  # Edición de video
+  # IA y APIs
+  http: ^1.1.2
+  # Reproducción de video
+  video_player: ^2.8.1
+  chewie: ^1.7.1
+  # Almacenamiento
+  path_provider: ^2.1.1
+  # Generación de texto a voz
+  flutter_tts: ^4.2.2
+  # Interfaz de usuario
+  flutter_spinkit: ^5.2.0
+  google_fonts: ^6.1.0
+  # Localización de ruta de archivos
+  path: ^1.8.3
+  share_plus: ^10.1.4  # Usa la última versión disponible
+  ffmpeg_kit_flutter: ^5.1.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  image_picker: ^1.0.0  # Usa la versión más reciente
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
